@@ -1,6 +1,5 @@
 <div align="center">
   <h1>Person360: Diffusion-Guided 3D Gaussian Splatting <br> for Static 360-Degree Portrait Reconstruction</h1>
-  <hr>
 
   **Cunqi Wu** · **Minhao Lin** · **Jianchao Wang** · **Peng Zhou** · **Jie Qin**
 
