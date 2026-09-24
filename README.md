@@ -45,28 +45,20 @@ Person360 uses a scene-specific diffusion prior to restore portrait details duri
 
 Qualitative render comparisons on 360-degree portrait scenes. The clips below show Person360 alongside a static reconstruction baseline and a dynamic reconstruction baseline.
 
-<div class="col-md-8 col-md-offset-2">
-  <h4>Static Method Comparison</h4>
-  <div align="center">
-    <div style="display: inline-block; width: 49%; vertical-align: top;">
-      <h4>3DGS</h4>
-      <img src="assets/comparison/scene1/3dgs.gif" alt="Scene 1 rendered with 3DGS" width="100%" style="padding: 2px;">
-    </div>
-    <div style="display: inline-block; width: 49%; vertical-align: top;">
-      <h4>Person360 (ours)</h4>
-      <img src="assets/comparison/scene1/person360.gif" alt="Scene 1 rendered with Person360" width="100%" style="padding: 2px;">
-    </div>
-  </div>
+### Static Method Comparison
 
-  <h4>Dynamic Method Comparison</h4>
-  <div align="center">
-    <div style="display: inline-block; width: 49%; vertical-align: top;">
-      <h4>4DGS</h4>
-      <img src="assets/comparison/scene2/4dgs.gif" alt="Scene 2 rendered with 4DGS" width="100%" style="padding: 2px;">
-    </div>
-    <div style="display: inline-block; width: 49%; vertical-align: top;">
-      <h4>Person360 (ours)</h4>
-      <img src="assets/comparison/scene2/person360.gif" alt="Scene 2 rendered with Person360" width="100%" style="padding: 2px;">
-    </div>
-  </div>
-</div>
+<p align="center">
+  <img src="assets/comparison/label-3dgs.svg" alt="3DGS" width="49%">
+  <img src="assets/comparison/label-person360.svg" alt="Person360 (ours)" width="49%"><br>
+  <img src="assets/comparison/scene1/3dgs.gif" alt="Scene 1 rendered with 3DGS (left)" width="49%">
+  <img src="assets/comparison/scene1/person360.gif" alt="Scene 1 rendered with Person360 (right)" width="49%">
+</p>
+
+### Dynamic Method Comparison
+
+<p align="center">
+  <img src="assets/comparison/label-4dgs.svg" alt="4DGS" width="49%">
+  <img src="assets/comparison/label-person360.svg" alt="Person360 (ours)" width="49%"><br>
+  <img src="assets/comparison/scene2/4dgs.gif" alt="Scene 2 rendered with 4DGS (left)" width="49%">
+  <img src="assets/comparison/scene2/person360.gif" alt="Scene 2 rendered with Person360 (right)" width="49%">
+</p>
